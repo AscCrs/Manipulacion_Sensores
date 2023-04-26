@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1, h2 {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+form {
+    margin-top: 10px;
+}
+input[type=submit] {
+    margin-top: 10px;
+    margin-right: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+input[type=submit]:hover {
+    background-color: #3e8e41;
+}
+input[type=radio] {
+    margin-right: 5px;
+}
